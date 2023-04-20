@@ -9,6 +9,12 @@ import UIKit
 
 class QuadsViewController: UIViewController {
 
+    @IBOutlet weak var exerciseNameOutlet: UILabel!
+    
+    @IBOutlet weak var exerciseImageOutlet: UIImageView!
+    
+    @IBOutlet weak var exerciseDescOutlet: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +22,12 @@ class QuadsViewController: UIViewController {
     }
     
 
+    
+    @IBAction func exercise1btn(_ sender: Any) {
+    }
+    
+    @IBAction func exercise2btn(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
