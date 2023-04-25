@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1B4B4629F8289E004D3813 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B4B4529F8289E004D3813 /* BMIViewController.swift */; };
 		3FF2819C29DF421900886396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2819B29DF421900886396 /* AppDelegate.swift */; };
 		3FF2819E29DF421900886396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2819D29DF421900886396 /* SceneDelegate.swift */; };
 		3FF281A029DF421900886396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2819F29DF421900886396 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1B4B4529F8289E004D3813 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
 		3FF2819829DF421900886396 /* IOSDev_Group5_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDev_Group5_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF2819B29DF421900886396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF2819D29DF421900886396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				3FF2819D29DF421900886396 /* SceneDelegate.swift */,
 				3FF2819F29DF421900886396 /* ViewController.swift */,
 				3FF281A129DF421900886396 /* Main.storyboard */,
+				3F1B4B4529F8289E004D3813 /* BMIViewController.swift */,
 				3FF7EFF329EEE83600D15D91 /* QuadsViewController.swift */,
 				3FF7EFF529EEE84A00D15D91 /* ChestViewController.swift */,
 				3FF7EFF729EEE85A00D15D91 /* CalvesViewController.swift */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF281A029DF421900886396 /* ViewController.swift in Sources */,
+				3F1B4B4629F8289E004D3813 /* BMIViewController.swift in Sources */,
 				3FF2819C29DF421900886396 /* AppDelegate.swift in Sources */,
 				3FF7EFF829EEE85A00D15D91 /* CalvesViewController.swift in Sources */,
 				3FF7EFF029EEE7DA00D15D91 /* BicepViewController.swift in Sources */,
