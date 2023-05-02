@@ -324,6 +324,9 @@
                                 <color key="tintColor" red="0.16546631889999999" green="0.65181862690000003" blue="0.14350350889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Calculate"/>
+                                <connections>
+                                    <action selector="calculatePressed:" destination="Lqy-uZ-ydL" eventType="touchUpInside" id="0jz-ci-Luu"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4GJ-1b-vzm">
                                 <rect key="frame" x="77" y="535" width="261" height="227"/>
@@ -339,6 +342,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="6oE-1Z-qGC"/>
+                    <connections>
+                        <outlet property="calculateOl" destination="WKz-v9-Kb5" id="wl2-32-Kht"/>
+                        <outlet property="descriptionOl" destination="4GJ-1b-vzm" id="0QQ-qp-Ld2"/>
+                        <outlet property="heightFeet" destination="FGs-Ju-qm3" id="wxN-kB-LQr"/>
+                        <outlet property="heightInches" destination="h0z-W7-s0T" id="w4s-8i-hMF"/>
+                        <outlet property="imageOl" destination="O7f-ST-OQS" id="FPc-cL-Hon"/>
+                        <outlet property="weightPounds" destination="JXf-k5-5TB" id="67R-lv-xFp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8NU-rK-i10" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
