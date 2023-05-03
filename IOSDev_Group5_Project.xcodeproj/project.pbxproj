@@ -65,8 +65,8 @@
 		3FF7EFF329EEE83600D15D91 /* QuadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadsViewController.swift; sourceTree = "<group>"; };
 		3FF7EFF529EEE84A00D15D91 /* ChestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestViewController.swift; sourceTree = "<group>"; };
 		3FF7EFF729EEE85A00D15D91 /* CalvesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalvesViewController.swift; sourceTree = "<group>"; };
-		DFA12F252A02020800270D90 /* calf2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = calf2.gif; path = ../../../../.Trash/calf2.gif; sourceTree = "<group>"; };
-		DFA12F272A02021E00270D90 /* calf1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = calf1.gif; path = ../../../../.Trash/calf1.gif; sourceTree = "<group>"; };
+		DFA12F252A02020800270D90 /* calf2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = calf2.gif; sourceTree = "<group>"; };
+		DFA12F272A02021E00270D90 /* calf1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = calf1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
