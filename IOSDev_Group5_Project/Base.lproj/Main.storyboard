@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DzY-FV-4TV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DzY-FV-4TV">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -409,11 +409,17 @@
                                 <rect key="frame" x="151" y="202.5" width="112" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Exercise #2"/>
+                                <connections>
+                                    <action selector="buttonTwoClicked:" destination="aJa-3E-VP3" eventType="touchUpInside" id="s2V-fj-PHm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQh-cP-4Bc">
                                 <rect key="frame" x="152" y="152.5" width="110" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Exercise #1"/>
+                                <connections>
+                                    <action selector="buttonOneClicked:" destination="aJa-3E-VP3" eventType="touchUpInside" id="MQC-1E-O5X"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzD-h9-Glj">
                                 <rect key="frame" x="139.5" y="257" width="135.5" height="24"/>
@@ -421,14 +427,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gj3-tz-NSi">
-                                <rect key="frame" x="163.5" y="511" width="87.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gj3-tz-NSi">
+                                <rect key="frame" x="57" y="611" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="NMI-Tk-H8p"/>
+                                    <constraint firstAttribute="width" constant="300" id="aBH-Fe-7u0"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SWg-gb-sVQ">
-                                <rect key="frame" x="107" y="296" width="200" height="200"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SWg-gb-sVQ">
+                                <rect key="frame" x="57" y="296" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="g8g-q0-N4f"/>
+                                    <constraint firstAttribute="height" constant="300" id="uop-m0-xT2"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="czm-bQ-Y1s"/>
@@ -449,6 +463,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BeL-5o-NfA"/>
+                    <connections>
+                        <outlet property="descriptionOutlet" destination="Gj3-tz-NSi" id="VoL-OC-jW5"/>
+                        <outlet property="exerciseName" destination="RzD-h9-Glj" id="Pfd-sN-rs4"/>
+                        <outlet property="exerciseOne" destination="cQh-cP-4Bc" id="tr1-Hi-C7b"/>
+                        <outlet property="exerciseTwo" destination="ySa-98-sig" id="2Es-Hy-qV4"/>
+                        <outlet property="imageOutlet" destination="SWg-gb-sVQ" id="YmD-8m-cur"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3z-Gf-SSH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
