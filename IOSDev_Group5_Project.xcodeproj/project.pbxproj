@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F1B4B4629F8289E004D3813 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B4B4529F8289E004D3813 /* BMIViewController.swift */; };
+		3F46B6312A030A61004B79B4 /* preachCurl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F46B6302A030A61004B79B4 /* preachCurl.gif */; };
+		3F46B6332A030B38004B79B4 /* inclineCurl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F46B6322A030B38004B79B4 /* inclineCurl.gif */; };
 		3FC4375D2A01FD3B00D32A88 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4375C2A01FD3B00D32A88 /* gifLoader.swift */; };
 		3FF2819C29DF421900886396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2819B29DF421900886396 /* AppDelegate.swift */; };
 		3FF2819E29DF421900886396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2819D29DF421900886396 /* SceneDelegate.swift */; };
@@ -46,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		3F1B4B4529F8289E004D3813 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		3F46B6302A030A61004B79B4 /* preachCurl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = preachCurl.gif; path = ../../../../Downloads/preachCurl.gif; sourceTree = "<group>"; };
+		3F46B6322A030B38004B79B4 /* inclineCurl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = inclineCurl.gif; path = ../../../inclineCurl.gif; sourceTree = "<group>"; };
 		3FC4375C2A01FD3B00D32A88 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
 		3FF2819829DF421900886396 /* IOSDev_Group5_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDev_Group5_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF2819B29DF421900886396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 		3FF2819A29DF421900886396 /* IOSDev_Group5_Project */ = {
 			isa = PBXGroup;
 			children = (
+				3F46B6322A030B38004B79B4 /* inclineCurl.gif */,
+				3F46B6302A030A61004B79B4 /* preachCurl.gif */,
 				DFA12F272A02021E00270D90 /* calf1.gif */,
 				DFA12F252A02020800270D90 /* calf2.gif */,
 				3FF2819B29DF421900886396 /* AppDelegate.swift */,
@@ -259,10 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA12F262A02020800270D90 /* calf2.gif in Resources */,
+				3F46B6312A030A61004B79B4 /* preachCurl.gif in Resources */,
 				3FF281A829DF421A00886396 /* LaunchScreen.storyboard in Resources */,
 				DFA12F282A02021E00270D90 /* calf1.gif in Resources */,
 				3FF281A529DF421A00886396 /* Assets.xcassets in Resources */,
 				3FF281A329DF421900886396 /* Main.storyboard in Resources */,
+				3F46B6332A030B38004B79B4 /* inclineCurl.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNPWLH52S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSDev_Group5_Project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -501,6 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNPWLH52S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSDev_Group5_Project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
