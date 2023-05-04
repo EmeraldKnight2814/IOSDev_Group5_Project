@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F11AAEA2A041207005CE778 /* chest2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F11AAE92A041207005CE778 /* chest2.mp4 */; };
+		3F11AAEC2A04142E005CE778 /* chest1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F11AAEB2A04142E005CE778 /* chest1.mp4 */; };
 		3F1B4B4629F8289E004D3813 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B4B4529F8289E004D3813 /* BMIViewController.swift */; };
 		3F46B6792A035A43004B79B4 /* inclineCurl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F46B6782A035A43004B79B4 /* inclineCurl.gif */; };
 		3F46B67B2A035A59004B79B4 /* preachCurl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F46B67A2A035A59004B79B4 /* preachCurl.gif */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F11AAE92A041207005CE778 /* chest2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chest2.mp4; sourceTree = "<group>"; };
+		3F11AAEB2A04142E005CE778 /* chest1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chest1.mp4; sourceTree = "<group>"; };
 		3F1B4B4529F8289E004D3813 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
 		3F46B6782A035A43004B79B4 /* inclineCurl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = inclineCurl.gif; sourceTree = "<group>"; };
 		3F46B67A2A035A59004B79B4 /* preachCurl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preachCurl.gif; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 			children = (
 				3F46B67A2A035A59004B79B4 /* preachCurl.gif */,
 				3F46B6782A035A43004B79B4 /* inclineCurl.gif */,
+				3F11AAE92A041207005CE778 /* chest2.mp4 */,
+				3F11AAEB2A04142E005CE778 /* chest1.mp4 */,
 				DFA12F272A02021E00270D90 /* calf1.gif */,
 				DFA12F252A02020800270D90 /* calf2.gif */,
 				3FF2819B29DF421900886396 /* AppDelegate.swift */,
@@ -269,10 +275,12 @@
 			files = (
 				DFA12F262A02020800270D90 /* calf2.gif in Resources */,
 				3FF281A829DF421A00886396 /* LaunchScreen.storyboard in Resources */,
+				3F11AAEA2A041207005CE778 /* chest2.mp4 in Resources */,
 				DFA12F282A02021E00270D90 /* calf1.gif in Resources */,
 				3F46B67B2A035A59004B79B4 /* preachCurl.gif in Resources */,
 				3F46B6792A035A43004B79B4 /* inclineCurl.gif in Resources */,
 				3FF281A529DF421A00886396 /* Assets.xcassets in Resources */,
+				3F11AAEC2A04142E005CE778 /* chest1.mp4 in Resources */,
 				3FF281A329DF421900886396 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
