@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3F1B4B4629F8289E004D3813 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B4B4529F8289E004D3813 /* BMIViewController.swift */; };
+		3F46B6792A035A43004B79B4 /* inclineCurl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F46B6782A035A43004B79B4 /* inclineCurl.gif */; };
+		3F46B67B2A035A59004B79B4 /* preachCurl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F46B67A2A035A59004B79B4 /* preachCurl.gif */; };
 		3FAA414B2A0318990038377C /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA414A2A0318990038377C /* ShowViewController.swift */; };
-		3FAA414D2A0319B80038377C /* chest1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA414C2A0319B80038377C /* chest1.mov */; };
-		3FAA414F2A031BB10038377C /* chest2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA414E2A031BB10038377C /* chest2.mov */; };
 		3FC4375D2A01FD3B00D32A88 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4375C2A01FD3B00D32A88 /* gifLoader.swift */; };
 		3FF2819C29DF421900886396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2819B29DF421900886396 /* AppDelegate.swift */; };
 		3FF2819E29DF421900886396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2819D29DF421900886396 /* SceneDelegate.swift */; };
@@ -49,9 +49,9 @@
 
 /* Begin PBXFileReference section */
 		3F1B4B4529F8289E004D3813 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		3F46B6782A035A43004B79B4 /* inclineCurl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = inclineCurl.gif; path = ../../../inclineCurl.gif; sourceTree = "<group>"; };
+		3F46B67A2A035A59004B79B4 /* preachCurl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = preachCurl.gif; path = ../../../../Downloads/preachCurl.gif; sourceTree = "<group>"; };
 		3FAA414A2A0318990038377C /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
-		3FAA414C2A0319B80038377C /* chest1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = chest1.mov; path = ../../../Downloads/chest1.mov; sourceTree = "<group>"; };
-		3FAA414E2A031BB10038377C /* chest2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = chest2.mov; path = ../../../Downloads/chest2.mov; sourceTree = "<group>"; };
 		3FC4375C2A01FD3B00D32A88 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
 		3FF2819829DF421900886396 /* IOSDev_Group5_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDev_Group5_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF2819B29DF421900886396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,10 +123,10 @@
 		3FF2819A29DF421900886396 /* IOSDev_Group5_Project */ = {
 			isa = PBXGroup;
 			children = (
+				3F46B67A2A035A59004B79B4 /* preachCurl.gif */,
+				3F46B6782A035A43004B79B4 /* inclineCurl.gif */,
 				DFA12F272A02021E00270D90 /* calf1.gif */,
 				DFA12F252A02020800270D90 /* calf2.gif */,
-				3FAA414C2A0319B80038377C /* chest1.mov */,
-				3FAA414E2A031BB10038377C /* chest2.mov */,
 				3FF2819B29DF421900886396 /* AppDelegate.swift */,
 				3FF2819D29DF421900886396 /* SceneDelegate.swift */,
 				3FF2819F29DF421900886396 /* ViewController.swift */,
@@ -267,11 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FAA414D2A0319B80038377C /* chest1.mov in Resources */,
-				3FAA414F2A031BB10038377C /* chest2.mov in Resources */,
 				DFA12F262A02020800270D90 /* calf2.gif in Resources */,
 				3FF281A829DF421A00886396 /* LaunchScreen.storyboard in Resources */,
 				DFA12F282A02021E00270D90 /* calf1.gif in Resources */,
+				3F46B67B2A035A59004B79B4 /* preachCurl.gif in Resources */,
+				3F46B6792A035A43004B79B4 /* inclineCurl.gif in Resources */,
 				3FF281A529DF421A00886396 /* Assets.xcassets in Resources */,
 				3FF281A329DF421900886396 /* Main.storyboard in Resources */,
 			);
